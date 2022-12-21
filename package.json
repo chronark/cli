@@ -1,8 +1,8 @@
 {
     "name": "@chronark/cli",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Serve your current directory",
-    "main": "index.js",
+    "bin": "./bin",
     "scripts": {
       "postinstall": "node install.js install",
       "preuninstall": "node install.js uninstall"
@@ -14,6 +14,10 @@
       "name": "cli",
       "path": "./bin",
       "url": "https://github.com/chronark/cli/releases/download/v{{version}}/cli_{{version}}_{{platform}}_{{arch}}.tar.gz"
-    }
+    },
+    "files":[
+        "dist",
+        "install.js"
+    ]
   }
   
