@@ -1,0 +1,19 @@
+{
+    "name": "@chronark/cli",
+    "version": "0.0.2",
+    "description": "Serve your current directory",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "node install.js install",
+      "preuninstall": "node install.js uninstall"
+    },
+    "dependencies": {
+      "go-npm": "^0.1.9"
+    },
+    "goBinary": {
+      "name": "cli",
+      "path": "./bin",
+      "url": "https://github.com/chronark/cli/releases/download/v{{version}}/cli{{version}}_{{platform}}_{{arch}}.tar.gz"
+    }
+  }
+  
