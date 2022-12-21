@@ -1,6 +1,6 @@
 {
     "name": "@chronark/cli",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "Serve your current directory",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
     "goBinary": {
       "name": "cli",
       "path": "./bin",
-      "url": "https://github.com/chronark/cli/releases/download/v{{version}}/cli{{version}}_{{platform}}_{{arch}}.tar.gz"
+      "url": "https://github.com/chronark/cli/releases/download/v{{version}}/cli_{{version}}_{{platform}}_{{arch}}.tar.gz"
     }
   }
   
