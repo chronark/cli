@@ -1,6 +1,6 @@
 {
     "name": "@chronark/cli",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Serve your current directory",
     "main": "index.js",
     "scripts": {
